@@ -10,3 +10,6 @@ function Create(){
         $("#createaccountform").submit();
     }
 }
+function generateGraph(){
+
+}

@@ -34,7 +34,7 @@
               <option value="savings">Savings</option>
           </select><br>
           <label for="currency">Currency:</label><br>
-          <select id="currency" name="currency">
+          <select id="currency" name="currency" onchange="generateGraph()">
               <option value="£">£</option>
               <option value="$">$</option>
               <option value="€">€</option>
